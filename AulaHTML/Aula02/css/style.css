@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 26, 72);
+
+}
+
+#cabecalho{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 2% 0;
+    padding: 0;
+    background-color: rgb(82, 82, 181);
+    font-style:oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(to right, rgb(78, 78, 192), rgb(133, 133, 251), rgb(93, 207, 245)  );
+}
+
+main{
+    margin: 0;
+    padding: 0;
+
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    color: rgb(95, 101, 208);
+    margin: 0 2%;
+    font-size: 150%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footer{
+    margin: 1% 2% 0;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(78, 78, 192), rgb(133, 133, 251), rgb(93, 207, 245)  );
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.footer h2{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mais{
+    background-color: white;
+    color: rgb(82, 82, 181);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sobre{
+    margin: 3% 5% 1%;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    background-color:rgb(41, 33, 91) ;
+    border-radius: 25px;
+}
+
+.cardsIntegrantes{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    margin: 2% 2%;
+    background-color: rgb(108, 108, 193);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(78, 78, 192), rgb(133, 133, 251) );
+    box-shadow: 10px 10px rgb(62, 52, 125);
+
+}
+
+.card>h2{
+    font-size: 30px;
+}
+
+.card>h3{
+    font-size: 18px;
+}
+
+.card>img{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    
+
+}
